@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/layered-compoent-api-example/precache-manifest.a39bf9bfff0248fdbff60d7e64d91efd.js"
+  "/layered-component-api-example/precache-manifest.1b885c5942fbf5e9370f8d33ee8f4f7f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/layered-compoent-api-example/index.html", {
+workbox.routing.registerNavigationRoute("/layered-component-api-example/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
