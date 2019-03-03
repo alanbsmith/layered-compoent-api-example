@@ -1,0 +1,43 @@
+html,
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+  color: #1f2d3d;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+  margin: 0;
+  padding: 8px;
+}
+
+a {
+  color: #1f2d3d;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #1f2d3d;
+}

@@ -1,0 +1,10 @@
+.app {
+  display: flex;
+  flex: 1;
+}
+
+.left-nav {
+  background-color: #f9fafc;
+  padding: 8px;
+  min-width: 120px;
+}
